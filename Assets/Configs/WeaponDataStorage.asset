@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc8a34de907a59428a9843cb072e212, type: 3}
+  m_Name: WeaponDataStorage
+  m_EditorClassIdentifier: 
+  weaponDatas:
+  - Name: SubmachineGun
+    Damage: 10
+    maxShootDistance: 200
+    magSize: 30
+    fireRate: 200
+    reloadTime: 2
+    shootSound: machine_gun
+    reloadSound: RK47 reload
+  - Name: Pistol
+    Damage: 15
+    maxShootDistance: 50
+    magSize: 10
+    fireRate: 100
+    reloadTime: 1
+    shootSound: rk47Shoot1
+    reloadSound: 22LR Bolt Mag Reload Full MP3
+  - Name: Rifle
+    Damage: 20
+    maxShootDistance: 300
+    magSize: 5
+    fireRate: 50
+    reloadTime: 2
+    shootSound: 762x39 Single Isolated MP3
+    reloadSound: Mosin Bolt Cycle MP3
+  - Name: MachineGun
+    Damage: 10
+    maxShootDistance: 250
+    magSize: 60
+    fireRate: 250
+    reloadTime: 10
+    shootSound: 762x54r Single Isolated MP3
+    reloadSound: AK Rack MP3
