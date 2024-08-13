@@ -1,6 +1,6 @@
 # North-Coast-Attack
 
-![Image_1](Images/Img_1.JPG)
+![Image_1](Images/Img-1.JPG)
 
 ## Overview
 **North Coast Attack** is a first-person shooter set during the events of World War II.
