@@ -54,7 +54,7 @@ The player`s mission is to reach the final location and face the final "boss" of
 * All registered hits to the enemy and the player are accompanied by visual feedback and sound effects 
 
 ## Game Loop
--> Killing enemies on the location using distinct weaponary as well as exploring the area for loot -> 
--> Encountering an elite enemy, aka "boss" ->
--> Defeating a "boss" ->
--> Moving to next level 
+-> Killing enemies on the location using distinct weaponry as well as exploring the area for loot -> 
+Encountering an elite enemy, aka "boss" ->
+Defeating a "boss" ->
+Moving to next level -> 
