@@ -1,10 +1,15 @@
 # North-Coast-Attack
+
+![Image_1](Images/Img_1.JPG)
+
 ## Overview
 **North Coast Attack** is a first-person shooter set during the events of World War II.
 This project was created as a way to test the implementation of enemy controlls and navigation using the `State Machine` approach, as well as the implementation of several programming and optimization patterns such as `SingleTone` and `ObjectPool`.
 
 The playable character finds himself on the beach of the first location ("level") and must proceed deeper into the area to encouter various enemies, as well as lootable items. The path consists mainly of 3 separate locations ("level") to complete the game.
 The player`s mission is to reach the final location and face the final "boss" of the game. 
+
+![Image_2](Images/Img_2.jpg)
 
 ## Controls
 * The player is moved by pressing the keys on the keyboard - forward, backward, right, left (`WASD`, respectively).
@@ -22,6 +27,9 @@ The player`s mission is to reach the final location and face the final "boss" of
 
 * The player can restore his health by finding health restoration means (`med kits`).
 * Supply packs (`ammo kits`) found in different places of the locations will replanish ammunition.
+  
+![Image_4](Images/Img_4.JPG)
+![Image_4](Images/Img_5.JPG)
 
 ## Additional "Core Mechanics"
 1. Mouse buttons are used to aim and shoot, the keyboard keys are used to move.
@@ -45,9 +53,9 @@ The player`s mission is to reach the final location and face the final "boss" of
 
 ## UI/UX 
 * The player's current health level is displayed. After inflicting damage to the player, the health level visually decreases, after using the "med kit" item, it visually increases. 
-* The amount of ammunition is displayed. After each shot, the ammunition counter decreases, after using the "ammo kit" item, it increases. 
+* The amount of ammunition is displayed. After each shot, the ammunition counter decreases, after using the "ammo kit" item, it increases.
 
-* Enemy health level is displayed above their head.  
+![Image_6](Images/Img_6.JPG)
 
 * In the `Main Menu` there is an option to select the localization language (**English** by default). 
 
