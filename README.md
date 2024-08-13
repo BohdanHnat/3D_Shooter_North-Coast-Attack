@@ -4,9 +4,11 @@
 
 ## Overview
 **North Coast Attack** is a first-person shooter set during the events of World War II.
+
 This project was created as a way to test the implementation of enemy controlls and navigation using the `State Machine` approach, as well as the implementation of several programming and optimization patterns such as `SingleTone` and `ObjectPool`.
 
 The playable character finds himself on the beach of the first location ("level") and must proceed deeper into the area to encouter various enemies, as well as lootable items. The path consists mainly of 3 separate locations ("level") to complete the game.
+
 The player`s mission is to reach the final location and face the final "boss" of the game. 
 
 ![Image_2](Images/Img_2.jpg)
@@ -20,12 +22,15 @@ The player`s mission is to reach the final location and face the final "boss" of
 * The player is roleplaying as a soldier whose commited to slay his enemies. Aim at enemies to kill them.
 
 * In each level, the player will encounter enemies of varying strength and elite enemies (`bosses`) at the end of each level.
+  
   To access each of the following locations (levels), the elite enemy of the current location ("boss") has to be defeated, and all enemies of the current location are slain 
 
-* Weapons can be modified by finding weapon modifications (`weapon mods`) placed in various locations across the area, enhancing certain weapon characteristics. 
+* Weapons can be modified by finding weapon modifications (`weapon mods`) placed in various locations across the area, enhancing certain weapon characteristics.
+  
   The best weapons are obtained after killing elite enemies or hidden in the surrounding area.
 
 * The player can restore his health by finding health restoration means (`med kits`).
+  
 * Supply packs (`ammo kits`) found in different places of the locations will replanish ammunition.
   
 ![Image_4](Images/Img_4.JPG)
