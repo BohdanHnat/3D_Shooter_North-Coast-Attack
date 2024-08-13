@@ -3,7 +3,7 @@
 **North Coast Attack** is a first-person shooter set during the events of World War II.
 This project was created as a way to test the implementation of enemy controlls and navigation using the `state machine` approach, as well as the implementation of several programming and optimization patterns such as `SingleTone` and `ObjectPool`.
 
-The playable character finds himself on the beach of the first location ("level") and must proceed to explore the area more deeply to encouter various enemies, as well as lootable items. The path consists mainly of 3 separate locations ("level") to complete the game.
+The playable character finds himself on the beach of the first location ("level") and must proceed deeper into the area to encouter various enemies, as well as lootable items. The path consists mainly of 3 separate locations ("level") to complete the game.
 The player`s mission is to reach the final location and face the final "boss" of the game. 
 
 ## Controls
